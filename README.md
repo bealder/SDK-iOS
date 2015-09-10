@@ -4,13 +4,10 @@ This sample app show how integrate SDK Bealder to manage your beacons.
 
 ## Download SDK
 
-> Latest Stable Release 1.5
+> [SDK-Bealder-release-2.2](https://github.com/bealder/SDK-iOS/releases/tag/2.2)
 
-![dowload](http://www.wasaru.com/statics/img/gray-download-icon.png)
-[SDK-Bealder-release-1.5](https://github.com/bealder/SDK-iOS/releases/tag/1.5)
+## Video Installation
 
-## Documentation
-
-You can read [installation documentation](https://github.com/bealder/SDK-iOS/blob/master/DOCS.md)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/tX6eISAAUi4/0.jpg)](http://www.youtube.com/watch?v=tX6eISAAUi4)
 
 [More informations on our website](http://bealder.com)
