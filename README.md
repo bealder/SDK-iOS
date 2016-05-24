@@ -2,12 +2,24 @@
 
 This sample app show how integrate SDK Bealder to manage your beacons.
 
-## Download SDK
+### How to download SDK ?
 
-> [SDK-Bealder-release-2.2](https://github.com/bealder/SDK-iOS/releases/tag/2.2)
+> [SDK-Bealder-release-2.3](https://github.com/bealder/SDK-iOS/releases/tag/2.3)
 
-## Video Installation
+### Sample code
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/tX6eISAAUi4/0.jpg)](http://www.youtube.com/watch?v=tX6eISAAUi4)
+We provide you a sample code to show you a simple implementation of our framework.
 
-[More informations on our website](http://bealder.com)
+> [Sample code](Sample/)
+
+### Installation
+
+You want to install our framework? Just follow instructions or look at the video.
+
+> [Installation guide](Documentation/INSTALL.md)
+
+### Contact-us
+
+You have question? You want use our product? Contact-us by our Website. 
+
+> [More informations on our website](http://bealder.com)

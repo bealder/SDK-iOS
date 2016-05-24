@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-Bealder.png" translatesAutoresizingMaskIntoConstraints="NO" id="NUO-4d-Gll">
+                                <rect key="frame" x="22" y="180" width="276" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="pQL-CI-Z6m"/>
+                                    <constraint firstAttribute="width" constant="276" id="qSg-4c-qrh"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sample APP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwH-2h-ei0">
+                                <rect key="frame" x="175" y="260" width="94" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="zwH-2h-ei0" secondAttribute="trailing" constant="31" id="10L-3k-Kws"/>
+                            <constraint firstItem="zwH-2h-ei0" firstAttribute="baseline" secondItem="NUO-4d-Gll" secondAttribute="baseline" constant="-24" id="SY1-eb-Rx3"/>
+                            <constraint firstItem="NUO-4d-Gll" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="SuZ-pZ-Kq5"/>
+                            <constraint firstItem="NUO-4d-Gll" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="hqw-Dc-Jam"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="480"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="254" y="267"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo-Bealder.png" width="1380" height="600"/>
+    </resources>
+</document>

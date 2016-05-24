@@ -1,0 +1,6 @@
+framework module Bealder {
+  umbrella header "Bealder.h"
+
+  export *
+  module * { export * }
+}
